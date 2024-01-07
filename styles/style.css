@@ -344,3 +344,68 @@ p {
     opacity: .5;
     transition: 1s;
 }
+
+/* Form-Section */
+
+.form-section{
+    border-radius: 16px;
+background-color: rgba(255, 0, 0, 0.05);
+text-align: center;
+/* padding: 100px; */
+height: 550px;
+}
+.form-section .icon{
+    padding: 86px 0px 45px;
+}
+
+.form-section h3{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.form-section p{
+    width:895px;
+    margin:20px auto;
+}
+
+input[type="email"]{
+
+    width: 480px;
+height: 72px;
+flex-shrink: 1;
+border-radius: 50px 0px 0px 50px;
+background: #FFF;
+border:0px;
+padding-left: 20px;
+color: rgba(7, 2, 17, 0.30);
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+input[type="button"]{
+    width: 210px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+color: white;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+border:0px;
+cursor: pointer;
+}
