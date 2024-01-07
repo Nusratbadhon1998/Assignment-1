@@ -258,7 +258,7 @@ p {
 
 }
 
-.bonus2-img{
+.bonus2-img {
     background-image: url("../resources/Rectangle\ 2.png");
     height: 500px;
     background-repeat: no-repeat;
@@ -267,34 +267,38 @@ p {
     background-position: bottom;
     margin-top: 200px;
 }
-.border1,.border2{
+
+
+.border2 {
     /* border: 3px solid blue; */
     height: 200px;
 }
-.circle{
+
+.circle {
     height: 433px;
-    width:500px;
-background-image: url("../resources/Rectangle\ 1.png");
-background-size: 420px 430px;
-background-repeat: no-repeat;
-margin: -159px -78px 0px 0px;
+    width: 500px;
+    background-image: url("../resources/Rectangle\ 1.png");
+    background-size: 420px 430px;
+    background-repeat: no-repeat;
+    margin: -159px -78px 0px 0px;
 }
 
-.box{
-       
-        height: 430px;
-        width: 500px;
-        margin-left: 130px;
-}
-     .box img{
-        height: 100%;
-        width: 100%;
-    }
+.box {
 
-    .circle img{
-        margin-left: -145px;
-        margin-top: 64px;
-    }
+    height: 430px;
+    width: 500px;
+    margin-left: 130px;
+}
+
+.box img {
+    height: 100%;
+    width: 100%;
+}
+
+.circle img {
+    margin-left: -145px;
+    margin-top: 64px;
+}
 
 
 /* photo-grid */
@@ -419,8 +423,8 @@ footer {
     padding-top: 90px;
 }
 
-.footer-row1 * {
-    margin-bottom: 16px;
+.footer-row1 .address * {
+    margin-bottom: 14px;
 }
 
 .footer-row2 * {
@@ -450,4 +454,10 @@ hr {
     height: 1px;
     background-color: rgb(54, 53, 53);
     border: none;
+}
+
+
+footer span {
+    vertical-align: text-top;
+    margin-right: 10px;
 }
