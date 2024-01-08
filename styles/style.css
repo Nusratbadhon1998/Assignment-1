@@ -33,7 +33,7 @@ p {
 }
 
 .banner {
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("../resources/Banner\ Image.png");
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Banner\ Image.png");
     background-repeat: no-repeat;
     text-align: center;
     height: 600px;
@@ -42,7 +42,7 @@ p {
 
 .banner .title {
     padding: 170px;
-    
+
 
 }
 
@@ -107,14 +107,14 @@ p {
 
 /* Section2 Banner section */
 #section2 .banner2 {
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("../resources/Vectorrr.png");
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
     /* padding:120px 0px; */
     display: flex;
     justify-content: space-around;
     background-repeat: no-repeat;
     align-items: center;
     /* background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
-    
+
 }
 
 .banner2-content * {
@@ -122,11 +122,11 @@ p {
 }
 
 .banner2-content {
-    padding: 140px 40px 160px 103px; 
-    
-    width:510px;
+    padding: 140px 40px 160px 103px;
+
+    width: 510px;
     height: 288px;
-    border-radius:9px 0px 0px 0px;
+    border-radius: 9px 0px 0px 0px;
 }
 
 .banner2-content h3 {
@@ -141,8 +141,9 @@ p {
     color: rgba(255, 255, 255, 0.80);
     width: 650px;
 }
-.banner2-content button{
-}
+
+.banner2-content button {}
+
 .banner2-img {
     padding: 60px 130px;
 }
@@ -265,46 +266,30 @@ p {
 }
 
 .bonus2-img {
-    background-image: url("../resources/Rectangle\ 2.png");
-    height: 500px;
+    background-image: url("../resources/Rectangle\ 2.png"), url("../resources/Rectangle\ 1.png");
+    background-size: 1320px 166px, 400px 400px;
     background-repeat: no-repeat;
     display: flex;
     justify-content: space-between;
-    background-position: bottom;
+    background-position: bottom, top right;
     margin-top: 200px;
+    /* align-items: center; */
 }
 
-
-.border2 {
-    /* border: 3px solid blue; */
-    height: 200px;
-}
-
-.circle {
-    height: 433px;
-    width: 500px;
-    background-image: url("../resources/Rectangle\ 1.png");
-    background-size: 420px 430px;
-    background-repeat: no-repeat;
-    margin: -159px -78px 0px 0px;
-}
 
 .box {
 
-    height: 430px;
-    width: 500px;
-    margin-left: 130px;
+    margin-left: 60px;
+    margin-bottom: 80px;
+
+}
+.circle {
+    position: relative;
+    top: 25px;
+    right: 220px;
 }
 
-.box img {
-    height: 100%;
-    width: 100%;
-}
 
-.circle img {
-    margin-left: -145px;
-    margin-top: 64px;
-}
 
 
 /* photo-grid */
@@ -318,7 +303,7 @@ p {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    margin-left:22px;
+    margin-left: 22px;
 }
 
 #section6 .container h3 {
@@ -328,13 +313,13 @@ p {
     font-weight: 900;
     text-transform: capitalize;
     margin: 16px 0px;
-    margin-left:22px;
+    margin-left: 22px;
 
 }
 
 #section6 .container p {
     max-width: 896px;
-    margin-left:22px;
+    margin-left: 22px;
 
 }
 
@@ -346,14 +331,14 @@ p {
 }
 
 #section6 .container .grid .im {
-margin-bottom:16px;
+    margin-bottom: 16px;
 }
 
 #section6 .container .im img {
     opacity: 1;
     transition: 1s;
-    width:380px;
-    height:380px;
+    width: 380px;
+    height: 380px;
 }
 
 #section6 .container .im img:hover {
@@ -391,7 +376,7 @@ margin-bottom:16px;
 input[type="email"] {
 
     width: 480px;
-    height: 72px; 
+    height: 72px;
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
     border: 0px;
@@ -404,7 +389,7 @@ input[type="email"] {
 }
 
 input[type="button"] {
-     width: 210px;
+    width: 210px;
     height: 72px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
