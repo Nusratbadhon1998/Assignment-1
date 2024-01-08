@@ -346,8 +346,7 @@ p {
 }
 
 #section6 .container .grid .im {
-    /* margin: 7px; */
- height: 450px;
+margin-bottom:16px;
 }
 
 #section6 .container .im img {
