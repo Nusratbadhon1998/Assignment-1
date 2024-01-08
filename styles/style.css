@@ -33,16 +33,16 @@ p {
 }
 
 .banner {
-    background-image: url("../resources/Banner\ Image.png");
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("../resources/Banner\ Image.png");
     background-repeat: no-repeat;
     text-align: center;
     height: 600px;
-    border: 18px;
+    /* border: 18px; */
 }
 
 .banner .title {
     padding: 170px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    
 
 }
 
@@ -107,9 +107,14 @@ p {
 
 /* Section2 Banner section */
 #section2 .banner2 {
-    background-image: url("../resources/Vectorrr.png");
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("../resources/Vectorrr.png");
+    /* padding:120px 0px; */
     display: flex;
     justify-content: space-around;
+    background-repeat: no-repeat;
+    align-items: center;
+    /* background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    
 }
 
 .banner2-content * {
@@ -117,9 +122,11 @@ p {
 }
 
 .banner2-content {
-    padding: 140px 40px 120px 90px;
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    ;
+    padding: 140px 40px 160px 103px; 
+    
+    width:510px;
+    height: 288px;
+    border-radius:9px 0px 0px 0px;
 }
 
 .banner2-content h3 {
@@ -133,9 +140,9 @@ p {
 .banner2-content p {
     color: rgba(255, 255, 255, 0.80);
     width: 650px;
-
 }
-
+.banner2-content button{
+}
 .banner2-img {
     padding: 60px 130px;
 }
@@ -312,6 +319,7 @@ p {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    margin-left:22px;
 }
 
 #section6 .container h3 {
@@ -321,27 +329,33 @@ p {
     font-weight: 900;
     text-transform: capitalize;
     margin: 16px 0px;
+    margin-left:22px;
+
 }
 
 #section6 .container p {
     max-width: 896px;
+    margin-left:22px;
+
 }
 
 #section6 .container .grid {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
+    justify-content: space-evenly;
 }
 
 #section6 .container .grid .im {
-    margin: 7px;
+    /* margin: 7px; */
     height: 450px;
-    width: 424px;
 }
 
 #section6 .container .im img {
     opacity: 1;
     transition: 1s;
+    width:380px;
+    height:380px;
 }
 
 #section6 .container .im img:hover {
@@ -379,8 +393,7 @@ p {
 input[type="email"] {
 
     width: 480px;
-    height: 72px;
-    flex-shrink: 1;
+    height: 72px; 
     border-radius: 50px 0px 0px 50px;
     background: #FFF;
     border: 0px;
@@ -393,9 +406,8 @@ input[type="email"] {
 }
 
 input[type="button"] {
-    width: 210px;
+     width: 210px;
     height: 72px;
-    flex-shrink: 0;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     color: white;
@@ -404,7 +416,6 @@ input[type="button"] {
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
-    text-transform: capitalize;
     border: 0px;
     cursor: pointer;
 }
